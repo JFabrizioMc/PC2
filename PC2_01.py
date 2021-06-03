@@ -10,7 +10,7 @@ coordenada = [x2,y2]
 
 # Proceso
 
-distancia = math.sqrt((x2 - x1)*(x2 - x1) + (y2 - y1)*(y2 - y1)) 
+distancia = math.sqrt(math.pow((x2 - x1)*(x2 - x1),2) + math.pow((y2 - y1)*(y2 - y1),2)) 
 
 print ("Coordenada :", coordenada)
 print("La distancia entre [0,0] y ", coordenada, " es :", round(distancia))
